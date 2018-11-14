@@ -1,27 +1,22 @@
 # Ejemplo4SpotifyApp
+Esta aplicacion fue creada con la Version 6.2.5 de Angular 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+IMPORTANTE !!!!!!! 
+Para poder consumir la App de Spotify es importante generar un Token  que caduca cada hora por cuestiones de seguridad. 
 
-## Code scaffolding
+Para mayor informacion visita la pagina de Spotify para desarrolladores.
+https://developer.spotify.com/documentation/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Si ya tienes el Token 
+En la carpeta app/components/services/spotify.services.ts 
+Busca el Metodo getQuery y cambiar el Token  que generaron con su usuario y contraseña 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Author 
+rodrigoh00per
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
