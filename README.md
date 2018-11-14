@@ -11,8 +11,7 @@ https://developer.spotify.com/documentation/
 
 
 Si ya tienes el Token 
-En la carpeta app/components/services/spotify.services.ts 
-Busca el Metodo getQuery y cambiar el Token  que generaron con su usuario y contraseña 
+En la carpeta app/components/services/spotify.services.ts ,busca el Metodo getQuery y cambiar el Token  que generaron con su usuario y contraseña 
 
 
 
